@@ -1,0 +1,65 @@
+* { 
+    font-family: arial, helvetica, sans-serif; 
+}
+
+h1 { 
+    font-size: 16px; 
+    margin-top: 0px; 
+}
+
+button { 
+    cursor: pointer; 
+}
+
+div#wrapper { 
+    width: 428px; 
+    margin: 0px auto 0px auto; 
+    background: #ddd; 
+    padding: 20px; 
+    border-right: 1px solid #ddd; 
+    border-bottom: 1px solid #ddd; 
+}
+
+div#advertisement { 
+    width: 468px; 
+    margin: 50px auto 15px auto;
+}
+
+div#advertisement img {
+    border: none;
+}
+
+a, div#footer a { 
+    font-size: 10px; 
+    color: #bbb; 
+    font-family: arial, helvetica, sans-serif; 
+}
+
+div#footer { 
+    font-size: 9px; 
+    padding: 20px; 
+    color: #ccc; 
+    position: fixed; 
+    bottom: 0px; 
+}
+
+textarea { 
+    margin-bottom: 5px; 
+    width: 428px;
+    resize: none;
+    border: none;
+    background: #eee;
+    padding: 4px;
+}
+
+#response {
+    display: none;
+    width: 468px;
+}
+
+#answer {
+    display: block;
+    width: 428px;
+    padding: 20px 0px;
+    margin-bottom: 5px;
+}
